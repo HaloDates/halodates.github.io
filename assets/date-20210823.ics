@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ical.marudot.com//iCal Event Maker
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Europe/Moscow
+LAST-MODIFIED:20201011T015911Z
+TZURL:http://tzurl.org/zoneinfo-outlook/Europe/Moscow
+X-LIC-LOCATION:Europe/Moscow
+BEGIN:STANDARD
+TZNAME:MSK
+TZOFFSETFROM:+0300
+TZOFFSETTO:+0300
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20210726T114439Z
+UID:20210726T114439Z-2083207103@marudot.com
+DTSTART;VALUE=DATE:20210823
+RRULE:FREQ=YEARLY;BYMONTH=8;BYMONTHDAY=23
+DTEND;VALUE=DATE:20210824
+SUMMARY:Эвакуация Новой Александрии
+DESCRIPTION:Гражданское население Новой Александрии пытается эвакуироваться с осажденного города\, однако большая часть эвакуационного транспорта была уничтожена силами Ковенанта.\n\nНа закате\, Noble Team отправляется на боевой вылет с целью уничтожения установленные Ковенантом глушащих устройства\, позволяя силам ККОН в безопасности эвакуировать весь персонал из штаб-квартиры СВР.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Эвакуация Новой Александрии
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

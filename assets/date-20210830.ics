@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ical.marudot.com//iCal Event Maker
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Europe/Moscow
+LAST-MODIFIED:20201011T015911Z
+TZURL:http://tzurl.org/zoneinfo-outlook/Europe/Moscow
+X-LIC-LOCATION:Europe/Moscow
+BEGIN:STANDARD
+TZNAME:MSK
+TZOFFSETFROM:+0300
+TZOFFSETTO:+0300
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20210726T114353Z
+UID:20210726T114353Z-1089034496@marudot.com
+DTSTART;VALUE=DATE:20210830
+RRULE:FREQ=YEARLY;BYMONTH=8;BYMONTHDAY=30
+DTEND;VALUE=DATE:20210831
+SUMMARY:Доставка фрагмента Кортаны на «Столп Осени»
+DESCRIPTION:Остатки команды «Noble Team»\, состоящие из Картера-А259\, Эмиля-А239 и Спартанца-Б312 направляются на разборочные верфи Асода с целью доставить фрагмент Кортаны\, содержащий важные навигационные данные\, на «Столп Осени».
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Доставка фрагмента Кортаны на «Столп Осени»
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

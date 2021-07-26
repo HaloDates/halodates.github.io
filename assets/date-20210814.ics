@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ical.marudot.com//iCal Event Maker
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Europe/Moscow
+LAST-MODIFIED:20201011T015911Z
+TZURL:http://tzurl.org/zoneinfo-outlook/Europe/Moscow
+X-LIC-LOCATION:Europe/Moscow
+BEGIN:STANDARD
+TZNAME:MSK
+TZOFFSETFROM:+0300
+TZOFFSETTO:+0300
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20210726T113041Z
+UID:20210726T113041Z-1986852773@marudot.com
+DTSTART;VALUE=DATE:20210814
+RRULE:FREQ=YEARLY;BYMONTH=8;BYMONTHDAY=14
+DTEND;VALUE=DATE:20210815
+SUMMARY:Начало операции «Апперкот»
+DESCRIPTION:В соответствии с планом\, двое членов команды «Ноубл» при поддержке пилотов ВВС ККОН и фрегата «Саванна» должны доставить импровизированную «бомбу» из сверхсветового двигателя на вражеский корвет «Упорная Молитва»\, чтобы затем использовать его для уничтожения сверхносителя.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Начало операции «Апперкот»
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

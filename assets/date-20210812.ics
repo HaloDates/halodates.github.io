@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ical.marudot.com//iCal Event Maker
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Europe/Moscow
+LAST-MODIFIED:20201011T015911Z
+TZURL:http://tzurl.org/zoneinfo-outlook/Europe/Moscow
+X-LIC-LOCATION:Europe/Moscow
+BEGIN:STANDARD
+TZNAME:MSK
+TZOFFSETFROM:+0300
+TZOFFSETTO:+0300
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20210726T112830Z
+UID:20210726T112830Z-1516645184@marudot.com
+DTSTART;VALUE=DATE:20210812
+RRULE:FREQ=YEARLY;BYMONTH=8;BYMONTHDAY=12
+DTEND;VALUE=DATE:20210813
+SUMMARY:Контратака сил ККОН
+DESCRIPTION:После окончательного уточнения местоположения основных сил ковенантов\, армия\, корпус морских пехотинцев и флот ККОН приступили к совместному наступлению в попытке сокрушить силы Ковенанта до того\, как к ним успеет подойти подкрепление.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Контратака сил ККОН
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

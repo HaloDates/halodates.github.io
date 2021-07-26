@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ical.marudot.com//iCal Event Maker
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Europe/Moscow
+LAST-MODIFIED:20201011T015911Z
+TZURL:http://tzurl.org/zoneinfo-outlook/Europe/Moscow
+X-LIC-LOCATION:Europe/Moscow
+BEGIN:STANDARD
+TZNAME:MSK
+TZOFFSETFROM:+0300
+TZOFFSETTO:+0300
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20210726T112752Z
+UID:20210726T112752Z-717956323@marudot.com
+DTSTART;VALUE=DATE:20210811
+RRULE:FREQ=YEARLY;BYMONTH=8;BYMONTHDAY=11
+DTEND;VALUE=DATE:20210812
+SUMMARY:Ночная рекогносцировка в район дислокации ковенантов
+DESCRIPTION:В течении двух последующих недель после обороны базы «Меч» ККОН отправляло разведывательные группы на контролируемую Ковенантом территорию с целью разведки вражеских позиций и сил\, с которыми придется столкнуться в рамках подготавливаемого контрнаступления.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ночная рекогносцировка в район дислокации ковенантов
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+END:VCALENDAR

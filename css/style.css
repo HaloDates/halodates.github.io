@@ -1,0 +1,142 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Regular.woff2') format('woff2'),
+       url('../fonts/Roboto-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Medium.woff2') format('woff2'),
+       url('../fonts/Roboto-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Italic.woff2') format('woff2'),
+       url('../fonts/Roboto-Italic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Bold.woff2') format('woff2'),
+       url('../fonts/Roboto-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Black.woff2') format('woff2'),
+       url('../fonts/Roboto-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Bold.woff2') format('woff2'),
+       url('../fonts/Roboto-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  box-sizing: border-box;
+  font: 14px/2 'Roboto', sans-serif;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+.title {
+  margin: 0;
+  line-height: 1;
+}
+
+.list-reset {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.section {
+  margin-bottom: 4em;
+}
+
+.container {
+  padding: 0 15px;
+}
+
+.container__title {
+  margin: 2em 0;
+  font-size: 2rem;
+  text-align: right;
+}
+
+.text {
+  margin: 0;
+}
+
+.card__item {
+}
+
+.card__body {
+  border-left: 4px solid red;
+  padding-left: 10px;
+}
+
+.card__item:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.card__date {
+  margin-bottom: .25em;
+  color: red;
+  font-size: 5rem;
+}
+
+.card__title {
+  margin-bottom: .7em;
+}
+
+.card__text {
+  margin-bottom: 1em;
+}
+
+.card__calendar-event {
+  border: none;
+  border-radius: 10px;
+  display: inline-block;
+  padding: .9em 1em;
+  background: #fadc3d;
+  color: black;
+  font-weight: 600;
+  font-size: .9rem;
+  line-height: 1;
+  text-decoration: none;
+}
+
+.card__anchor {
+  display: block;
+  margin: 30px auto;
+  width: 1em;
+  color: black;
+  font-size: 3rem;
+  text-align: center;
+  cursor: pointer;
+}

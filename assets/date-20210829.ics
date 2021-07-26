@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ical.marudot.com//iCal Event Maker
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Europe/Moscow
+LAST-MODIFIED:20201011T015911Z
+TZURL:http://tzurl.org/zoneinfo-outlook/Europe/Moscow
+X-LIC-LOCATION:Europe/Moscow
+BEGIN:STANDARD
+TZNAME:MSK
+TZOFFSETFROM:+0300
+TZOFFSETTO:+0300
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20210726T113441Z
+UID:20210726T113441Z-1665370641@marudot.com
+DTSTART;VALUE=DATE:20210829
+RRULE:FREQ=YEARLY;BYMONTH=8;BYMONTHDAY=29
+DTEND;VALUE=DATE:20210830
+SUMMARY:Уничтожение базы «Меч»
+DESCRIPTION:Noble Team получает приказ уничтожить базу «Меч». Во время операции Noble Team пробирается внутрь базы «Меч»\, где они сталкиваются с доктором Хэлси\, которая просит их защитить ее лабораторию. Затем Noble Team дается прямой приказ сопроводить фрагмент Кортаны\, содержащий важные данные\, от комплекса Бабд Катха Предтеч к «Столпу Осени».
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Уничтожение базы «Меч»
+TRIGGER:-PT0M
+END:VALARM
+END:VEVENT
+END:VCALENDAR
